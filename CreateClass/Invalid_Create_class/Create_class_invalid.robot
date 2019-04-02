@@ -26,6 +26,7 @@ TC1_invalid_Class_name
     Input Text    subject_code    123456
     Input Text    year    2019
     Input Text    term    1
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter valid class name.
@@ -45,6 +46,7 @@ TC2_invalid_empty_Class_name
     Input Text    subject_code    239126
     Input Text    year    2019
     Input Text    term    1
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter class name.
@@ -65,6 +67,7 @@ TC3_invalid_subject_code
     Input Text    subject_code    $$--=*
     Input Text    year    2019
     Input Text    term    1
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter valid subject code.
@@ -84,6 +87,7 @@ TC4_invalid_empty_subject_code
     Input Text    class_name    Sport Education
     Input Text    year    2019
     Input Text    term    1
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter subject code.
@@ -104,6 +108,7 @@ TC5_invalid_year
     Input Text    subject_code    200584
     Input Text    year    2015
     Input Text    term    1
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter valid year.
@@ -123,6 +128,7 @@ TC6_invalid_empty_year
     Input Text    class_name    Green Herb
     Input Text    subject_code    431235
     Input Text    term    2
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter year.
@@ -143,6 +149,7 @@ TC7_invalid_term
     Input Text    subject_code    322582
     Input Text    year    2018
     Input Text    term    4
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter valid term.
@@ -162,6 +169,7 @@ TC8_invalid_empty_term
     Input Text    class_name    User Interface
     Input Text    subject_code    322583
     Input Text    year    2018
+    Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Page Should Contain    Please enter term.

@@ -10,9 +10,9 @@ ${Homepage URL}    classroom/teacher/home.php
 ${BROWSER}    Chrome
 ${USERNAME}    theerayut
 ${PASSWORD}    123123123
-${VALID STUDENT ID}    5930204358
+${VALID STUDENT ID}    5830203301
 ${Classroom Element}    //html/body/div/div/div/div[2]/div/div[1]/div/a
-${Add STUDENT Element}    //html/body/div[1]/div/div[1]/div[2]/a[4]/p
+${Add STUDENT Element}    //html/body/div[1]/div/div[1]/div[2]/a[3]/p
 
 *** Test Cases ***
 Open Homepage
