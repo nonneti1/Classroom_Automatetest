@@ -29,7 +29,6 @@ TC1_invalid_Class_name
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter valid class name.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -49,7 +48,6 @@ TC2_invalid_empty_Class_name
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter class name.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -70,7 +68,6 @@ TC3_invalid_subject_code
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter valid subject code.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -90,7 +87,6 @@ TC4_invalid_empty_subject_code
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter subject code.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -111,7 +107,6 @@ TC5_invalid_year
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter valid year.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -131,7 +126,6 @@ TC6_invalid_empty_year
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter year.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -152,7 +146,6 @@ TC7_invalid_term
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter valid term.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -172,7 +165,6 @@ TC8_invalid_empty_term
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter term.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -193,7 +185,6 @@ TC9_invalid_section
     Input Text    section    0
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter valid section (0-999).
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
 
@@ -213,6 +204,5 @@ TC10_invalid_empty_section
     Input Text    term    2
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
-    Page Should Contain    Please enter section.
     Location Should Be    http://${SERVER}/${CreateClass URL}
     Close Browser
