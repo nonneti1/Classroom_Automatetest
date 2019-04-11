@@ -9,7 +9,7 @@ ${VALID PASSWORD}    123123123
 ${INVALID USERNAME}    teetong
 ${INVALID PASSWORD}    abc123456
 ${LOGIN URL}    http://localhost/classroom/accout/login/login.php
-${SUCCESS URL}    http://10.199.66.227/SoftEn2019/Sec2/Dailand/student/home.php
+${SUCCESS URL}    http://localhost/classroom/student/home.php
 
 ***Testcases***
 VALID-LOGIN
