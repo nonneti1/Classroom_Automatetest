@@ -11,7 +11,7 @@ ${BROWSER}    Chrome
 ${USERNAME}    theerayut
 ${PASSWORD}    123123123
 ${Classroom Element}    //html/body/div/div/div/div[2]/div/div[1]/div/a
-${Add TA Element}    //html/body/div/div/div[1]/div[2]/a[2]/p
+${Add TA Element}    //html/body/div/div/div[1]/div[2]/a[3]/p
 
 *** Test Cases ***
 TC1_Invalid_Email
@@ -25,7 +25,7 @@ TC1_Invalid_Email
     Click Element    ${Add TA Element}
     Input Text    email    สมเกียรติ@ไทยเมลล์.คอม
     Click Button    addTA_submit
-    Wait Until Page Contains    Please enter valid email.
+    Wait Until Page Contains    Email not found!
     Close Browser
 
 TC2_Invalid_Empty_Email
@@ -38,5 +38,4 @@ TC2_Invalid_Empty_Email
     Click Element    ${Classroom Element}
     Click Element    ${Add TA Element}
     Click Button    addTA_submit
-    Wait Until Page Contains    Please enter email.
     Close Browser

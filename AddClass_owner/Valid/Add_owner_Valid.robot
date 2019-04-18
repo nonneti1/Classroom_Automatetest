@@ -10,9 +10,9 @@ ${Homepage URL}    classroom/teacher/home.php
 ${BROWSER}    Chrome
 ${USERNAME}    theerayut
 ${PASSWORD}    123123123
-${VALID TA EMAIL}    A01@kkumail.com
+${VALID TA EMAIL}    chitsutha@kku.ac.th 
 ${Classroom Element}    //html/body/div/div/div/div[2]/div/div[1]/div/a
-${Add TA Element}    //html/body/div/div/div[1]/div[2]/a[3]/p
+${Add TA Element}    //html/body/div/div/div[1]/div[2]/a[2]/p
 
 *** Test Cases ***
 Open Homepage
@@ -30,4 +30,3 @@ Teacher login
     Click Button    addTA_submit
     Wait Until Page Contains    สำเร็จ
     Close Browser
-	
