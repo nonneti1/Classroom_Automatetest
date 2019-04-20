@@ -4,7 +4,7 @@ Library    Selenium2Library
 ***Variables***
 ${BROWSER}    Chrome
 ${DELAY}    0
-${VALID USERNAME}    A01
+${VALID USERNAME}    A05
 ${VALID PASSWORD}    123123123
 ${INVALID USERNAME}    teetong
 ${INVALID PASSWORD}    abc123456
