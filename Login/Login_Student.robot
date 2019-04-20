@@ -8,14 +8,15 @@ ${VALID USERNAME}    A01
 ${VALID PASSWORD}    123123123
 ${INVALID USERNAME}    teetong
 ${INVALID PASSWORD}    abc123456
-${LOGIN URL}    http://localhost/classroom/accout/login/login.php
-${SUCCESS URL}    http://localhost/classroom/student/home.php
+${LOGIN URL}    http://10.199.66.227/SoftEn2019/Sec2/Dailand/accout/login/login.php
+${SUCCESS URL}    http://10.199.66.227/SoftEn2019/Sec2/Dailand/student/home.php
 
 ***Testcases***
 VALID-LOGIN
     Open Browser    ${LOGIN URL}    ${BROWSER}
 	Maximize Browser Window
 	Input Text    username    ${VALID USERNAME}
+	Set Selenium Speed    0.5 seconds
 	Input Text    pass    ${VALID PASSWORD}
 	Select Radio Button    login_type    1
     Click Button    login_submit
