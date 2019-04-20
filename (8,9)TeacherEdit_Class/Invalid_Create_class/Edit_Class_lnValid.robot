@@ -47,6 +47,7 @@ TC2_invalid_empty_Class_name
     Click Element    ${COURSE PATH}
 	Click Element    ${EDIT PATH}
 	${CLASS URL}=    Get Location
+	Clear Element Text    class_name
     Input Text    subject_code    239126
     Input Text    year    2019
     Input Text    term    1
@@ -91,6 +92,7 @@ TC4_invalid_empty_subject_code
 	Click Element    ${EDIT PATH}
 	${CLASS URL}=    Get Location
     Input Text    class_name    Sport Education
+	Clear Element Text    subject_code
     Input Text    year    2019
     Input Text    term    1
     Input Text    section    1
@@ -135,6 +137,7 @@ TC6_invalid_empty_year
 	${CLASS URL}=    Get Location
     Input Text    class_name    Green Herb
     Input Text    subject_code    431235
+	Clear Element Text    year
     Input Text    term    2
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
@@ -179,6 +182,7 @@ TC8_invalid_empty_term
     Input Text    class_name    User Interface
     Input Text    subject_code    322583
     Input Text    year    2018
+	Clear Element Text    term
     Input Text    section    1
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
@@ -223,6 +227,7 @@ TC10_invalid_empty_section
     Input Text    subject_code    399214
     Input Text    year    2019
     Input Text    term    2
+	Clear Element Text    section
     Input Text    des    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ac erat molestie varius. Pellentesque convallis consequat mauris vel tristique.
     Click Button    create_submit
     Location Should Be    ${CLASS URL}
