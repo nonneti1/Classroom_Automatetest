@@ -20,7 +20,7 @@ VALID-LOGIN
 	Input Text    pass    ${VALID PASSWORD}
 	Select Radio Button    login_type    0
     Click Button    login_submit
-	Location Should Be    ${SUCCESS URL}
+	Page Should Contain    Username or password is incorrect.
     Close Browser
 
 INVALID-USERNAME
@@ -31,7 +31,7 @@ INVALID-USERNAME
 	Select Radio Button    login_type    0
     Click Button    login_submit
 	Page Should Contain    Username or password is incorrect.
-    Close Browser
+    Close BrowserAccount is locked. Please contact admin.
 
 INVALID-PASSWORD
     Open Browser    ${LOGIN URL}    ${BROWSER}
