@@ -2,11 +2,11 @@
 Library    Selenium2Library
 
 *** Variables ***
-${SERVER}    localhost
-${LOGIN URL}    classroom/accout/login/login.php
-${CreateClass URL}    classroom/teacher/create_class/create_class.php
-${Success URL}    classroom/teacher/success.php
-${Homepage URL}    classroom/teacher/home.php
+${SERVER}    10.199.66.227/SoftEn2019/Sec2/Dailand
+${LOGIN URL}    accout/login/login.php
+${CreateClass URL}    teacher/create_class/create_class.php
+${Success URL}    teacher/success.php
+${Homepage URL}    teacher/home.php
 ${BROWSER}    Chrome
 ${USERNAME}    theerayut
 ${PASSWORD}    123123123
@@ -15,6 +15,7 @@ ${PASSWORD}    123123123
 Open Homepage
     Open Browser    http://${SERVER}/${LOGIN URL}    ${BROWSER}
     Location Should Be    http://${SERVER}/${LOGIN URL}
+    Set Selenium Speed    0.5 seconds
 
 Teacher login
 	Input Text    username    ${USERNAME}
